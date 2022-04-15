@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedGem</title>
+    <link rel="icon" href="images/favpng_web-development-software-development-programmer-computer-programming-custom-software.png"> 
+    <link href="Profileform.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/RedGemlogo.png" width="30px" />
+</head>
+<body>
+    <section class="container">
+        <div class="d-flex profile-head-div pt-3 px-2">
+            <h2 class="title-1">Profile</h2>
+            <div class="profile-pic-div">
+                <img class="image-1" src="images/portrait-gef88fc04b_1280.jpg" alt="profile-pic">
+            </div>
+        </div>
+        <div class="padding">
+            <div class="d-flex form-title-div px-5 pt-5">
+                <div class="cursor-pointer" onclick="guest()">
+                    <h6 id="visitor">Visitor</h6>
+                    <hr id="underline-1">
+                </div>
+                <div class="cursor-pointer" onclick="staff()">
+                    <h6 id="staff">Staff</h6>
+                    <hr id="underline-2">
+                </div>
+            </div>
+        </div>
+
+        <form class="px-2">
+            <label>Basic Information</label>
+            <input id="username" name="username" type="text" class="form-control" placeholder="Username">
+            <div class="row name-div">
+               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <input id="firstname" name="firstname" type="text" class="form-control" placeholder="Firstname">
+               </div>
+               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <input id="lastname" name="lastname" type="text" class="form-control lastname-input" placeholder="Lastname"> 
+            </div>
+            </div>
+            <input id="wallet-address" name="wallet-address" class="form-control wallet-address-input" placeholder="Wallet address">
+           <div id="staff-form" class="">
+            <label class="mt-3">Address</label>
+            <input id="street-city" name="street-city" type="text" class="form-control" placeholder="Street City">
+            <div class="row name-div">
+                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                    <input id="region" name="region" type="text" class="form-control" placeholder="Region">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <input id="zipcode" name="zipcode" type="text" class="form-control lastname-input" placeholder="Zip Code"> 
+                </div>
+                </div>
+                <select class="form-control" name="country" id="country">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Canada">Canada</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Russia">Russia</option>
+                </select>
+                <label class="mt-3">Position</label>
+                <select class="form-control position-select" name="position" id="position">
+                    <option value="Chief Executive Officer">Chief Executive Officer</option>
+                    <option value="Chief Operating Officer">Chief Operating Officer</option>
+                    <option value="Chief Financial Officer">Chief Financial Officer</option>
+                    <option value="Chief Technology Officer">Chief Technology Officer</option>
+                    <option value="Chief Business Officer">Chief Business Officer</option>
+                    <option value="Chief Marketing Officer">Chief Marketing Officer</option>
+                    <option value="Chief Growth Officer">Chief Growth Officer</option>
+                    <option value="Chief Visionary Officer">Chief Visionary Officer</option>
+                    <option value="Chief Research Officer">Chief Research Officer</option>
+                    <option value="Chief Product Officer">Chief Product Officer</option>
+                    <option value="Chief Communication Officer">Chief Communication Officer</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Developer">Designer</option>
+                </select>
+                <label class="mt-3">Socials</label>
+                <div class="social-div">
+                    <input id="facebook" name="facebook" type="text" class="form-control social-input" placeholder="Facebook">
+                    <input id="twitter" name="twitter" type="text" class="form-control social-input" placeholder="Twitter">
+                    <input id="linkedin" name="linkedin" type="text" class="form-control social-input" placeholder="LinkedIn">
+                    <input id="discord" name="discord" type="text" class="form-control social-input" placeholder="Discord"> 
+                </div>
+           </div>
+           <div class="text-center mt-3">
+            <button class="btn-2 ">Cancel</button>
+            <button type="submit" class="btn-1 ">Submit</button>
+        </div>
+        </form>
+    </section>
+    <footer class="container">
+        <div class="d-flex footer-div">
+            <h6 class="footer-text-1">Powered by</h6>
+            <img class="image-2" src="images/RedGemlogo.png">
+            <h6 class="footer-text-2">RedGem Technologies Inc.</h6>
+        </div>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/937b1ed33b.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>        
