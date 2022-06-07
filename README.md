@@ -2,7 +2,7 @@
 <div align="center">
 <img src="https://img.shields.io/badge/version-1.0.0-yellowgreen"/>
 </div>  
-This is a form that collect users data and submits it. The data gathered from this form will be used to generate the user's profile page.
+This is form was develped for a crypto website. It collects data from the platform user and generates a profile page for the user.
 
 ### Technologies used:
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
